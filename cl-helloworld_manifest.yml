@@ -1,0 +1,9 @@
+applications:
+- name: cl-helloworld
+  command: node index.js
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: cl-helloworld.cfapps.io
+  stack: cflinuxfs2
